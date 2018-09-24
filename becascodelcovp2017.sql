@@ -17,7 +17,7 @@ SET NAMES 'utf8';
 -- 
 -- Set default database
 --
-USE becascodelcovp2017;
+--USE becascodelcovp2017;
 
 --
 -- Definition for table ACCIONES
