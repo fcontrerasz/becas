@@ -1,0 +1,52 @@
+/* CSS Document */
+
+.salto{
+clear:both;
+height:3px;
+
+}
+
+
+
+.salto2{
+clear:both;
+height:5px;
+}
+
+.titArea{
+float:left;
+}
+.ct_tarea{
+float:left;
+}
+
+.tr_iz{
+
+}
+
+tabla01.{
+width:100%;
+background-color:#c2c2c2;
+}
+table, th, td
+{
+
+
+/*border: 1px solid #c2c2c2;*/
+border-collapse: separate;
+
+/*border-spacing:10px;*/
+}
+.clcolgar{
+font-size:12px;
+}
+.tittab{
+font-weight:bold;
+color:#333333;
+font-size:13px;
+}
+
+/*.hola{
+height:auto;
+}
+*/

@@ -1,0 +1,86 @@
+        *html {
+        }
+        /* Si necesitas aplicarlo a IE7 utiliza este:*/
+        *:first-child+html {
+        }
+        * {
+                margin: 0;
+                padding: 0;
+        }
+        html {
+                font: 62.5% "Lucida Grande", Lucida, Verdana, sans-serif;
+                text-shadow: #000 0px 0px 0px;/*Elimina el efecto bold en Safari*/
+        }
+        h1, h2, h3, h4, h5, h6, p, pre,
+        blockquote, ul, ol, dl, address {
+                font-weight: normal;
+                margin: 0 0 1em 0;
+        }
+        sup {
+                position: relative;
+                bottom: 0.3em;
+                vertical-align: baseline;
+        }
+        sub {
+                position: relative;
+                bottom: -0.2em;
+                vertical-align: baseline;
+        }
+        li, dd, blockquote {
+                margin-left: 1em;
+        }
+        a, a:link, a:visited, a:hover, a:active {
+                text-decoration: none;
+        }
+        a img {
+                border: none;
+                text-decoration: none;
+        }
+        img {
+                border: none;
+                text-decoration: none;
+        }
+        label, button {
+        cursor:pointer;
+        }
+        input, select, textarea {
+                font-size: 100%;
+        }
+        input:focus, select:focus, textarea:focus {
+                background-color: #FFF;
+        }
+        fieldset {
+                border: none;
+        }
+        .clear {
+                clear: both;
+        }
+        .float-left {
+                float: left;
+        }
+        .float-right {
+                float: right;
+        }
+        .helvetica {
+                font-family: Arial, Helvetica, Geneva, sans-serif;
+        }
+        .oculta
+        {
+            display:none;
+        }
+        .mascara_filtro
+        {
+            overflow:auto; width:900px; height:201px; border:1px solid black;
+        }
+        .mascara_cabecera
+        {
+            background-image:url("http://localhost:3271/Proyecto/img/fondo_filtro.jpg");
+            background-repeat:none;
+            height:18px;
+            width:900px;
+
+        }
+        .buscador
+        {
+            margin-left:30px;
+        }
